@@ -30,7 +30,7 @@ module Pusher
 
     # @private Returns the authentication token for the client
     def authentication_token
-      Signature::Token.new(@key, @secret)
+      ApiSignature::Token.new(@key, @secret)
     end
 
     # @private Builds a url for this app, optionally appending a path

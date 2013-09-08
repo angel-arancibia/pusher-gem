@@ -16,7 +16,7 @@ module Pusher
         @head['Content-Type'] = 'application/json'
       end
 
-      request = Signature::Request.new(verb.to_s.upcase, uri.path, params)
+      request = ApiSignature::Request.new(verb.to_s.upcase, uri.path, params)
       request.sign(client.authentication_token)
       @params = request.signed_params
     end

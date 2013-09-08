@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.add_dependency "multi_json", "~> 1.0"
-  s.add_dependency 'signature', "~> 0.1.6"
+  #s.add_dependency 'signature', "~> 0.1.6"
   s.add_dependency "httpclient", "~> 2.3.0"
   s.add_dependency "jruby-openssl" if defined?(JRUBY_VERSION)
 
