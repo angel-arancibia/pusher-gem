@@ -1,4 +1,4 @@
-require 'signature'
+require 'api_signature'
 require 'digest/md5'
 require 'multi_json'
 

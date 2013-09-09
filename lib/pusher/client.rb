@@ -1,4 +1,4 @@
-require 'signature'
+require 'api_signature'
 
 module Pusher
   class Client
